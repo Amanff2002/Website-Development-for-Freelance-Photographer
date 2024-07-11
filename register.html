@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MALCOM PHOTOGRAPHY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content flex-design">
+            <div class="logo">
+                <img src="download.png">
+            </div>
+            <ul class="nav-links flex-design">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About</a></li>
+                <li><a href="courses.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+          
+               
+          
+         
+          </div>
+        </div>
+        <div class="text-center">
+            <p>Welcome To</p>
+            <h1>Malcolm Lismore </h1>
+            <h1 style="color: red;">BOOKED HERE</h1>
+            
+            
+        </div>
+      
+       
+    </header>
+
+    <main>
+        <section class="registration-form "  style="margin-top: 100px; margin-bottom: 100px ;">
+            <div class="form-content">
+                <h2>BOOKING YOUR PLAN HERE</h2>
+                <form action="register.php" method="post">
+                    <div class="form-group">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="fname" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lname" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group" >
+                        <label for="Date">BOOKING DATE</label>
+                        <input type="date" id="date" name="Date" required>
+                    </div>
+                    
+                    
+                    <div class="form-group">
+                        <label for="contact">Contact-Details</label>
+                        <input type="Contact" id="Contact" name="Contact" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="course">Select a PLAN</label>
+                        <select id="course" name="course" required>
+                            <option value="WEDD">WEDDING PHOTOS</option>
+                            <option value="NAT">LANDSCAPE PHOTOS</option>
+                            <option value="SPT">SPORTS PHOTOS</option>
+                            <option value="CPL">WILDLIFE PHOTOS</option>
+                            <option value="EVE">EVENT PHOTOS</option>
+                            <option value="VSA">VISA PHOTOS</option>
+                           
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    
+</body>
+</html>
